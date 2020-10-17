@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb');
 const config = {
-  url: 'mongodb://localhost:27017/contatooh',
+  url: 'mongodb://localhost:27017/api-node',
 };
 
 module.exports = () => new Promise((resolve, reject) => {

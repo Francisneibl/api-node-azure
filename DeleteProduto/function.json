@@ -5,9 +5,8 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "methods": ["post"],
-      "route" : "produtos"
-
+      "methods": ["delete"],
+      "route": "produtos/{id}"
     },
     {
       "type": "http",
